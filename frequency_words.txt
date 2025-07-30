@@ -5,9 +5,6 @@ Netflix
 Disney+
 Apple TV
 播出
-热度
-新剧
-评分
 
 热门电影
 电影
@@ -17,8 +14,6 @@ Apple TV
 热映
 首映
 评分
-预售
-预告
 
 热门韩剧
 韩剧
@@ -28,7 +23,6 @@ MBC
 JTBC
 收视
 播出
-更新
 热度
 韩综
 
@@ -75,9 +69,9 @@ Stable Diffusion
 AR
 VR
 MR
-发布
 新品技术
 突破
+发布
 !维修
 !假货
 !二手
