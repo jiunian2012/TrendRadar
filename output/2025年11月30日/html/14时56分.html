@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-11-30 14:56:25</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">AI 人工智能 AI ChatGPT GPT GPT-4 GPT-5 Claude Sora Midjourney Stable Diffusion 技术 模型 发布 升级</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760379" target="_blank" class="news-link">高盛点评“中国AI大厂之战”：阿里 vs 腾讯 vs 字节</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=6G%E6%8A%80%E6%9C%AF%E9%87%8D%E5%A4%A7%E7%AA%81%E7%A0%B4%EF%BC%81%E4%B8%87%E4%BA%BF%E5%85%83%E7%BA%A7%E5%B8%82%E5%9C%BA%E6%9D%A5%E4%BA%86" target="_blank" class="news-link">6G技术重大突破！万亿元级市场来了</a> [7] <font color='grey'>- 14时56分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760389" target="_blank" class="news-link">美国“黑五”销售额同比增4.1%，AI流量暴增600%，通胀和“K型经济”依旧是主题</a> [7] <font color='grey'>- 14时56分</font><br>[凤凰网] <a href="https://tech.ifeng.com/c/8ohHBVsgmTp" target="_blank" class="news-link">美企质疑中国机器人厂商发布造假视频，中企回应</a> [11] <font color='grey'>- 14时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2214770" target="_blank" class="news-link">华为“憨憨”开售即秒罄 AI玩具是“新蓝海”还是“伪需求”？</a> [12] <font color='grey'>- 14时56分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1923520417756321577" target="_blank" class="news-link">为什么 chatgpt 是收费的，我们的豆包和 deepseek 是完全免费的?</a> [17] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">热门电影 电影 院线 票房 上映 热映 首映 评分</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2214843" target="_blank" class="news-link">《疯狂动物城2》刷新进口片单日票房纪录，机构认为电影大盘回暖关注后续新片相关影视公司</a> [10] <font color='grey'>- 14时56分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2%E9%A2%84%E6%B5%8B%E7%A5%A8%E6%88%BF%E8%B6%8542%E4%BA%BF" target="_blank" class="news-link">疯狂动物城2预测票房超42亿</a> [18] <font color='grey'>- 14时56分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1978016722301777217" target="_blank" class="news-link">同样是好莱坞大片，为什么《疯狂动物城 2》能轻松打破好莱坞在大陆三年破不了 10 亿票房的现状？</a> [18] <font color='grey'>- 14时56分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E3%80%8A%E7%96%AF%E7%8B%82%E5%8A%A8%E7%89%A9%E5%9F%8E2%E3%80%8B%E6%88%90%E4%B8%BA%E8%BF%9B%E5%8F%A3%E5%8A%A8%E7%94%BB%E7%A5%A8%E6%88%BF%E5%86%A0%E5%86%9B" target="_blank" class="news-link">《疯狂动物城2》成为进口动画票房冠军</a> [20] <font color='grey'>- 14时56分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347582&amp;amp;topic_name=%E5%A4%9F%E7%96%AF%E7%8B%82%21%E5%8A%A8%E7%89%A9%E5%9F%8E2%E9%A2%84%E6%B5%8B%E7%A5%A8%E6%88%BF38%E4%BA%BF" target="_blank" class="news-link">够疯狂!动物城2预测票房38亿</a> [21] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">科技电子产品相关词组 科技 前沿科技 芯片 量子计算 机器人 苹果 三星 华为 特斯拉 英伟达 AR VR MR 新品技术 突破 发布</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=IVL" target="_blank" class="news-link">IVL秋季赛DOU5 VS MRC</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时56分</font></div><br>[douyin] <a href="https://www.douyin.com/hot/2321311" target="_blank" class="news-link">华为苹果小米三台ProMax谁更耐摔</a> [10] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">剪辑热点 剪辑 混剪 cut 视频热点 爆款 热搜 热点</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32069422" target="_blank" class="news-link">新华每日电讯：多地山谷溶洞成垃圾场，整治不能靠“热搜”</a> [15] <font color='grey'>- 14时56分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=IVL" target="_blank" class="news-link">IVL秋季赛DOU5 VS MRC</a> <font color='red'><strong>[1]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
